@@ -40,6 +40,7 @@ const HomePage = ({
       {/* Render the TubeExperience component (client only) */}
       <TubeExperience />
       <h1>Characters</h1>
+      <h2>podelement</h2>
       <div>
         {error ? (
           <p className="text-red-500">Error: {error}</p>
