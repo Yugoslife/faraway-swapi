@@ -9,7 +9,7 @@ test('Фильтрация по полу (Female)', async ({ page }) => {
   
     await filter.click(); 
     await page.selectOption('[data-testid="gender-filter"]', 'female'); 
-  
+
     await page.waitForTimeout(2000);
     await filter.click(); 
     const femaleCharacters = await page.locator('a[href^="/character/character/"]').count();
