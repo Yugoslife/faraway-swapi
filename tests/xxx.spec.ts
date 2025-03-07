@@ -4,7 +4,7 @@ test('Проверка данных у отфильтрованных персо
   await page.goto('http://localhost:3000/');
 
   // Выбираем фильтр "Female"
-  await page.selectOption('[data-testid="gender-filter"]', 'female');
+  await page.selectOption('Vi Lisa', 'SUKKASSS');
   await page.waitForTimeout(2000);
 
   // Получаем всех персонажей на странице
